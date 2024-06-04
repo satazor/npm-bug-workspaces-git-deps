@@ -1,0 +1,13 @@
+{
+  "name": "npm-bug-workspaces-git-deps",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "strip-ansi": "git@github.com:chalk/strip-ansi.git#v7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "description": "Demonstration of npm bug when git dependencies are used with workspaces"
+}
